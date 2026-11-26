@@ -55,4 +55,8 @@
     <InternalsVisibleTo Include="zlib.net.Tests" Key="$(ZlibPublicKey)" />
     <InternalsVisibleTo Include="zlib.net.Benchmarks" Key="$(ZlibPublicKey)" />
   </ItemGroup>
+
+  <PropertyGroup>
+    <PathMap>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)/..'))=Dev:/ZlibCore-net462</PathMap>
+  </PropertyGroup>
 </Project>
