@@ -2,7 +2,7 @@
   <Import Project="StrongName.props" />
   <PropertyGroup>
     <!-- 2.0 replaces the misspelled "zlib.net-mutliplatform" ID, which stays on nuget.org at 1.x. -->
-    <PackageId>ZlibCore</PackageId>
+    <PackageId>ZlibCore-net462</PackageId>
     <Product>zlib.net</Product>
     <Description>100% managed version of ZLIB compression library which implements deflate and inflate compression algorithms (forked from https://github.com/cinderblocks/ZlibCore).</Description>
     <Copyright>Copyright Ã‚Â© 2006-2007, ComponentAce, 2022-2026 Sjofn LLC</Copyright>
