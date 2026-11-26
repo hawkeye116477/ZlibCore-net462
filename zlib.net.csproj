@@ -4,21 +4,21 @@
     <!-- 2.0 replaces the misspelled "zlib.net-mutliplatform" ID, which stays on nuget.org at 1.x. -->
     <PackageId>ZlibCore</PackageId>
     <Product>zlib.net</Product>
-    <Description>ZLIB.NET is a 100% managed version of ZLIB compression library which implements deflate and inflate compression algorithms.</Description>
+    <Description>100% managed version of ZLIB compression library which implements deflate and inflate compression algorithms (forked from https://github.com/cinderblocks/ZlibCore).</Description>
     <Copyright>Copyright Ã‚Â© 2006-2007, ComponentAce, 2022-2026 Sjofn LLC</Copyright>
     <AssemblyTitle>zlib.net</AssemblyTitle>
     <Version>2.0.3</Version>
-    <Company>ComponentAce</Company>
-    <Authors>cinderblocks</Authors>
+    <Company></Company>
+    <Authors>hawkeye116477</Authors>
     <TargetFrameworks>net462;</TargetFrameworks>
     <DebugType>portable</DebugType>
     <AssemblyName>zlibCore-net462</AssemblyName>
     <PackageTags>zlib;deflate;compression</PackageTags>
     <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageProjectUrl>https://github.com/cinderblocks/ZlibCore</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/hawkeye116477/ZlibCore-net462</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/cinderblocks/ZlibCore.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/hawkeye116477/ZlibCore-net462.git</RepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
