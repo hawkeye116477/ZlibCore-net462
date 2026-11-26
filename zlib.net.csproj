@@ -58,5 +58,6 @@
 
   <PropertyGroup>
     <PathMap>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)/..'))=Dev:/ZlibCore-net462</PathMap>
+    <EnableSourceLink>false</EnableSourceLink>
   </PropertyGroup>
 </Project>
