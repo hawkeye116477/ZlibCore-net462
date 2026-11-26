@@ -10,9 +10,9 @@
     <Version>2.0.3</Version>
     <Company>ComponentAce</Company>
     <Authors>cinderblocks</Authors>
-    <TargetFrameworks>netstandard2.0;netstandard2.1;net8.0</TargetFrameworks>
+    <TargetFrameworks>net462;</TargetFrameworks>
     <DebugType>portable</DebugType>
-    <AssemblyName>zlib.net</AssemblyName>
+    <AssemblyName>zlibCore-net462</AssemblyName>
     <PackageTags>zlib;deflate;compression</PackageTags>
     <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -30,7 +30,7 @@
 
     <!-- Nullable annotations need C# 8+, which the netstandard2.0 target can use with this setting. The internal
          engine files (a straight port of zlib) opt out with #nullable disable; the public surface is annotated. -->
-    <LangVersion>latest</LangVersion>
+    <LangVersion>9.0</LangVersion>
     <Nullable>enable</Nullable>
 
     <!-- XML documentation ships with the package for IntelliSense. The zlib-style constants and fields are
